@@ -1,2 +1,1 @@
-fighting with git hub fun fr fr
-github got hands thos
+ye thats right anorther static website using the same "create page elemnts with only javascript to save time" thing, god i love being asf 
