@@ -1,11 +1,15 @@
+let mainBody = document.getElementById("mainbody");
 let sidebar = document.getElementById("sideBody");
 
-function bridge(name, imageurl, desc) {
+function bridge(name, url, imageurl, desc) {
 
     //sidebar
     let sideDiv = document.createElement("div")
     sideDiv.id = "bridgesSide"
-        //main body img
+    sideDiv.onclick = function() {
+        window.location = `./bridges/${url}.html`
+    };
+    //main body img
     let sideDivImg = document.createElement("img")
     sideDivImg.id = "sideDivImg"
     sideDivImg.src = imageurl
@@ -23,3 +27,5 @@ function bridge(name, imageurl, desc) {
     sideDivName.appendChild(sideDivDesc)
     sidebar.appendChild(sideDiv)
 }
+
+//ok ok lesten the thing above me ^ is desgusting but it works and its fats. so stfu

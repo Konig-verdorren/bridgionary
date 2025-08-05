@@ -155,10 +155,12 @@
         }
         
         #sideDivImg {
-            height: 98%;
+            height: 95.5%;
             margin: 0.5%;
             overflow: hidden;
             border-radius: 0.5vw;
+            padding: 0.1vw;
+            margin: 0.1vw;
         }
         
         #sideDivName {
@@ -172,10 +174,11 @@
         }
         
         #mainDivImg {
-            height: 99%;
+            height: 97%;
             overflow: hidden;
             border-radius: 1vw;
             margin: 0.1vw;
+            padding: 0.1vw;
         }
         
         #mainDivName {

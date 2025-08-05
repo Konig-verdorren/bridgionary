@@ -1,0 +1,5 @@
+bridge("jump bridge", "jump", "jump.png", "A method where you are run jumping wal bridging.")
+bridge("MJ bridge", "mj", "mj.png", "A way to start jump by placing a block and looking at your feet.")
+bridge("icy bridge", "icy", "icy.png", "moving diagonaly wal placing block A on each turn.")
+bridge("double bridge", "doubleBridge", "doubleBridge.png", "moving forwards wal flicking to the side to place blocks there to.")
+bridge("")
