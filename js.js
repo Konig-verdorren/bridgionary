@@ -1,6 +1,6 @@
 let mainBody = document.getElementById("mainbody");
 let sidebar = document.getElementById("sideBody");
-
+ 
 function bridge(name, imageurl, desc) {
     //main body
     let mainDiv = document.createElement("div")
