@@ -5,7 +5,10 @@ function bridge(name, imageurl, desc) {
     //main body
     let mainDiv = document.createElement("div")
     mainDiv.id = "bridgesMain"
-        //main body img
+    mainDiv.onclick = function() {
+        alert(name)
+    };
+    //main body img
     let mainDivImg = document.createElement("img")
     mainDivImg.id = "mainDivImg"
     mainDivImg.src = imageurl
@@ -26,7 +29,10 @@ function bridge(name, imageurl, desc) {
     //sidebar
     let sideDiv = document.createElement("div")
     sideDiv.id = "bridgesSide"
-        //main body img
+    sideDiv.onclick = function() {
+        alert(name)
+    };
+    //main body img
     let sideDivImg = document.createElement("img")
     sideDivImg.id = "sideDivImg"
     sideDivImg.src = imageurl
@@ -45,9 +51,4 @@ function bridge(name, imageurl, desc) {
     sidebar.appendChild(sideDiv)
 }
 
-//ok ok lesten the thing above me ^ is desgusting but it works and its fats. so stfu
-bridge("Icy", "./img/icon.png", "you look back and forth placing blocks moving diagonally")
-bridge("jump", "./img/icon.png", "run and jumping wal bridging")
-bridge("celestial", "./img/icon.png", "bedrocks tele bridge")
-bridge("mj", "./img/icon.png", "yap yapyapyapyap yap yap yapyap yap yap yap yap")
-bridge("oxal", "./img/icon.png", "WTF?")
+//ok ok lesten the thing above me ^ is desgusting but it works and its fats. so stfubridge("Icy", "./img/icon.png", "you look back and forth placing blocks moving diagonally")

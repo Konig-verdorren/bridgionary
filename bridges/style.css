@@ -138,6 +138,7 @@
             border-radius: 1vw;
             background-color: rgba(53, 53, 65, 0.74);
             margin: 1%;
+            cursor: pointer;
         }
         
         #bridgesSide {
@@ -146,10 +147,11 @@
             border-radius: 0.5vw;
             background-color: rgba(33, 33, 41, 0.719);
             margin: 1%;
+            cursor: pointer;
         }
         
         #sideDivImg {
-            height: 99%;
+            height: 98%;
             margin: 0.5%;
             overflow: hidden;
             border-radius: 0.5vw;
@@ -166,8 +168,7 @@
         }
         
         #mainDivImg {
-            width: 7vw;
-            height: 7vw;
+            height: 99%;
             overflow: hidden;
             border-radius: 1vw;
             margin: 0.1vw;

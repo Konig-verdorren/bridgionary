@@ -1,0 +1,5 @@
+bridge("Icy", "./img/icon.png", "you look back and forth placing blocks moving diagonally")
+bridge("jump", "./img/icon.png", "run and jumping wal bridging")
+bridge("celestial", "./img/icon.png", "bedrocks tele bridge")
+bridge("mj", "./img/icon.png", "yap yapyapyapyap yap yap yapyap yap yap yap yap")
+bridge("oxal", "./img/icon.png", "WTF?")
