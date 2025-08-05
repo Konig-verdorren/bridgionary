@@ -55,7 +55,6 @@
             color: wheat;
             /* img size is 50x50 */
             background: url("https://raw.githubusercontent.com/Konig-verdorren/bridgionary/refs/heads/main/img/back.png") repeat 0 0;
-            background: url("https://raw.githubusercontent.com/Konig-verdorren/bridgionary/refs/heads/main/back.png") repeat 0 0;
             -webkit-animation: bg-scrolling-reverse 2s infinite;
             -moz-animation: bg-scrolling-reverse 2s infinite;
             -o-animation: bg-scrolling-reverse 2s infinite;
