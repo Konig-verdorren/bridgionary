@@ -145,6 +145,10 @@
             cursor: pointer;
         }
         
+        #bridgesMain:hover {
+            background-color: rgba(88, 88, 133, 0.829);
+        }
+        
         #bridgesSide {
             width: 98%;
             height: 10%;
@@ -152,6 +156,10 @@
             background-color: rgba(33, 33, 41, 0.719);
             margin: 1%;
             cursor: pointer;
+        }
+        
+        #bridgesSide:hover {
+            background-color: rgba(88, 88, 133, 0.829);
         }
         
         #sideDivImg {
