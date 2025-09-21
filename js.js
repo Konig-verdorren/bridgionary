@@ -5,9 +5,7 @@ function bridge(name, url, imageurl, desc) {
     //main body
     let mainDiv = document.createElement("div")
     mainDiv.id = "bridgesMain"
-    mainDiv.onclick = function() {
-        window.location = `./bridges/${url}.html`
-    };
+    mainDiv.onclick = function() {window.location = `./bridges/${url}.html`}
     //main body img
     let mainDivImg = document.createElement("img")
     mainDivImg.id = "mainDivImg"
@@ -29,9 +27,7 @@ function bridge(name, url, imageurl, desc) {
     //sidebar
     let sideDiv = document.createElement("div")
     sideDiv.id = "bridgesSide"
-    sideDiv.onclick = function() {
-        window.location = `./bridges/${url}.html`
-    };
+    sideDiv.onclick = function() {window.location = `./bridges/${url}.html`};
     //main body img
     let sideDivImg = document.createElement("img")
     sideDivImg.id = "sideDivImg"
